@@ -1,0 +1,29 @@
+footer {
+    background-color: #EFF2F5;
+}
+.footer-content {
+    padding-top: 37px;
+    padding-bottom: 33px;
+    background-color: #EFF2F5;
+}
+.contant-items {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item {
+    max-width: 361px;
+}
+.footer-item h4 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #424242;
+    margin-bottom: 22px;
+}
+.footer-item p {
+    font-weight: 400;
+    font-size: 12px;
+    color:  #424242;
+}
+.footer-item:nth-child(3) p:nth-child(2) {
+    margin-top: 22px;
+}

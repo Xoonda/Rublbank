@@ -1,0 +1,109 @@
+.card {
+    background: #EFF2F5;
+}
+.card-content {
+    padding-top: 137px;
+    padding-bottom: 138px;
+    display: flex;
+}
+.card-left {
+    display: flex;
+    height: 500px;
+    width: 750px;
+    flex-direction: column;
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.card-left-top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 99px;
+    margin-top:34px;
+}
+.card-left-top h2 {
+    font-size: 38px;
+    font-weight: 600;
+}
+.card-left-bottom {
+    margin-left: 99px;
+}
+.card-bottom-text {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-text-item {
+    width: 157px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.bottom-text-item h3 {
+    display: block;
+    font-weight: 500;
+    font-size: 30px;
+    color: #212121;
+    text-align: center;
+}
+.bottom-text-item h3::after {
+    display: block;
+    content: " ";
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 157px;
+    height: 1px;
+    background: #3A95FF;
+
+}
+.bottom-text-item p {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+.bottom-text-item:nth-child(3){
+    margin-right: 104px;
+}
+.card-bottom-buttons {
+    margin-top: 40px;
+    display: flex;
+}
+.card-bottom-buttons-margin {
+    margin-left: 37px;
+}
+
+/* right */
+.card-right {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-left: 30px;
+}
+.card-right-item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 360px;
+    height: 235px;
+    background: #F7F7F7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 5px solid #3A95FF;
+}
+.card-right-item:nth-child(2){
+    margin-top: 27px;
+}
+.card-right-item p {
+    margin-left: 34px;
+    margin-top: 34px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #212121;
+    
+}
+.card-right-item img {
+    display: flex;
+    margin-right: 34px;
+    margin-bottom: 34px;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
